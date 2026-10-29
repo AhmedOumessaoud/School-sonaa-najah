@@ -47,3 +47,6 @@ Identity constraints:
 - 7: Mathematics teacher, black moustache and small pointed goatee, short side-parted hair, dark suit and patterned grey tie, no glasses, serious expression.
 - 8: Physics teacher, dark brown skin, short hair with receding temples, narrow chin goatee and moustache, blue suit and blue tie, wide smile, no glasses.
 - 9: Supervision teacher, stocky build and round face, rectangular black glasses, dark combed-back hair, black polo, clean-shaven, neutral closed-mouth expression.
+
+## Footer banner — footer-banner-generated.png
+Built-in ImageGen, referencing the supplied full landing-page design. Generate only the bottom CTA banner's photographic background: deep royal-purple and violet study setting, white ceramic pencil cup with purple/gold pencils and upright notebooks confined to the left 18%; cream/purple books with gold trim and gold graduation cap confined to right 18%; subtle plant at far right. Wide 3:1 panorama with central 64% clean dark-purple negative space for live HTML Arabic copy and green registration button. Realistic polished advertising photography. No text, logos, numbers, buttons, UI, or border.

@@ -23,3 +23,6 @@ Native modal focus containment, Escape dismissal, focus restoration, labeled fie
 
 ## Verification
 Run `node test.cjs`: 27 assertions cover prices, phone validation, parent details, state reset and all five render paths. JavaScript syntax was checked with `node --check script.js`. Browser visual and interaction QA could not run because the browser access host was unavailable; mobile layout and native dialog behavior still need device verification.
+
+## Footer revision
+The bottom CTA now follows the supplied reference: generated purple photographic background with pencil cup/books/graduation cap at the edges, live Arabic headline, large green registration button and phone number, and a three-column support strip. The registration CTA opens the existing modal, not WhatsApp directly. Social links remain in the footer. New image: `assets/images/footer-banner-generated.png`; generation brief recorded in `assets/GENERATION-PROMPTS.md`.
