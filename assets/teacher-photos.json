@@ -1,0 +1,82 @@
+[
+  {
+    "index": 0,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.29.jpeg",
+    "file": "teacher-0-photo.webp",
+    "original_bytes": 69401,
+    "optimized_bytes": 14018,
+    "crop_top": 260
+  },
+  {
+    "index": 1,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.28 (1).jpeg",
+    "file": "teacher-1-photo.webp",
+    "original_bytes": 65077,
+    "optimized_bytes": 11828,
+    "crop_top": 90
+  },
+  {
+    "index": 2,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.28.jpeg",
+    "file": "teacher-2-photo.webp",
+    "original_bytes": 87602,
+    "optimized_bytes": 14832,
+    "crop_top": 110
+  },
+  {
+    "index": 3,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.27 (1).jpeg",
+    "file": "teacher-3-photo.webp",
+    "original_bytes": 100445,
+    "optimized_bytes": 22434,
+    "crop_top": 70
+  },
+  {
+    "index": 4,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.27.jpeg",
+    "file": "teacher-4-photo.webp",
+    "original_bytes": 79968,
+    "optimized_bytes": 16164,
+    "crop_top": 70
+  },
+  {
+    "index": 5,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.26 (1).jpeg",
+    "file": "teacher-5-photo.webp",
+    "original_bytes": 85077,
+    "optimized_bytes": 19284,
+    "crop_top": 100
+  },
+  {
+    "index": 6,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.26.jpeg",
+    "file": "teacher-6-photo.webp",
+    "original_bytes": 72493,
+    "optimized_bytes": 14172,
+    "crop_top": 80
+  },
+  {
+    "index": 7,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.25 (1).jpeg",
+    "file": "teacher-7-photo.webp",
+    "original_bytes": 71662,
+    "optimized_bytes": 15234,
+    "crop_top": 90
+  },
+  {
+    "index": 8,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.25.jpeg",
+    "file": "teacher-8-photo.webp",
+    "original_bytes": 59290,
+    "optimized_bytes": 13202,
+    "crop_top": 290
+  },
+  {
+    "index": 9,
+    "source": "WhatsApp Image 2026-10-29 at 22.10.24.jpeg",
+    "file": "teacher-9-photo.webp",
+    "original_bytes": 44144,
+    "optimized_bytes": 8270,
+    "crop_top": 280
+  }
+]

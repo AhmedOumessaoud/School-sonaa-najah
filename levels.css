@@ -1,0 +1,33 @@
+﻿/* Reference-level cards: portrait overhang, pill ribbons and compact copy. */
+#levels{overflow:hidden;background:radial-gradient(ellipse at 5% 0,#ede2ff,transparent 58%),radial-gradient(ellipse at 100% 100%,#eaddff,transparent 60%),#fcfaff}
+#levels .section-head{margin-bottom:45px}
+#level-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:25px;padding:0 4px 15px}
+#level-cards .level-card{position:relative;display:block;aspect-ratio:1/1.03;min-height:0;height:auto;padding:0;border:1.5px solid #d0afff;border-radius:24px;background:linear-gradient(135deg,#decbff 0%,#eee1ff 50%,#fff 90%);box-shadow:0 9px 14px #6219ac12;overflow:visible;transform:rotate(-2deg);cursor:pointer}
+#level-cards .level-first{transform:rotate(.3deg);background:linear-gradient(130deg,#d5b6ff 0%,#eee2ff 53%,#fff 88%)}
+#level-cards .level-second{transform:rotate(2deg);background:linear-gradient(130deg,#fff4d4 0%,#ffedc0 50%,#fff 90%);border-color:#efc263}
+#level-cards .level-portrait{position:absolute;top:-13%;left:0;right:0;bottom:auto;height:69%;width:100%;aspect-ratio:auto;margin:0;overflow:hidden;border-radius:0;isolation:isolate}
+#level-cards .level-portrait img{position:absolute;top:0;left:-18%;width:136%;max-width:none;height:auto;object-fit:initial;margin:0;border-radius:0}
+#level-cards .level-first .level-portrait img{width:116%;left:-8%;top:-1%}
+#level-cards .level-cap{position:absolute;top:24%;right:auto;left:7%;width:47px;height:47px;z-index:2;transform:rotate(-8deg)}
+#level-cards .level-copy{position:absolute;top:43%;left:0;right:0;bottom:0;display:flex;flex-direction:column;align-items:center;margin:0;padding:0 8px 9px;z-index:3;background:none}
+#level-cards h3{align-self:stretch;display:flex;align-items:center;justify-content:center;min-height:0;margin:0 -3px;padding:3px 4px;border-radius:40px;background:linear-gradient(100deg,#e7d7ff,#cfacfa);color:#3d087d;box-shadow:inset 0 1px 1px #ffffffa6;font-size:clamp(19px,2.35vw,29px);font-weight:900;line-height:1.6;letter-spacing:-.4px;white-space:nowrap}
+#level-cards .level-first h3{background:linear-gradient(105deg,#a85be6,#7519c5);color:#fff}
+#level-cards .level-second h3{background:linear-gradient(105deg,#ffe49e,#ffbd22);color:#371472}
+#level-cards p{width:100%;flex:1;min-height:0;margin:5px 0 4px;padding:0;font-size:clamp(12px,1.4vw,17px);line-height:1.5;font-weight:800;color:#392153}
+#level-cards button{display:grid;place-items:center;width:31px;height:31px;min-height:31px;flex:0 0 31px;margin:0;padding:0;border:2px solid #fff;border-radius:50%;font-size:21px;line-height:1;background:#5a0eaa;color:white;box-shadow:0 2px 6px #5515a827}
+#level-cards .level-card:hover{transform:translateY(-4px) rotate(0)}
+@media(max-width:850px){#level-cards{gap:17px}#level-cards h3{font-size:20px}#level-cards p{font-size:13px}#level-cards .level-cap{width:38px;height:38px}}
+@media(max-width:600px){
+ #levels{padding-block:30px 22px}#levels>.wrap{width:calc(100% - 24px)}#levels .section-head{margin-bottom:35px}#levels .section-head h2{font-size:clamp(21px,5.5vw,31px);line-height:1.45;margin-bottom:4px}#levels .section-head p{font-size:12px;font-weight:700}
+ #level-cards{gap:13px;padding:0 2px 12px}#level-cards .level-card{aspect-ratio:1/1.08;border-radius:17px;border-width:1px}#level-cards .level-portrait{top:-13%;height:69%;margin:0;aspect-ratio:auto}
+ #level-cards .level-portrait img{width:136%;height:auto;left:-18%;top:0}#level-cards .level-first .level-portrait img{width:116%;left:-8%;top:-1%}
+ #level-cards .level-cap{width:clamp(23px,6vw,35px);height:clamp(23px,6vw,35px);left:6%;right:auto;top:25%}
+ #level-cards .level-copy{top:43%;bottom:0;padding:0 4px 4px;margin:0}
+ #level-cards h3{font-size:clamp(12px,3.15vw,19px);padding:2px 1px;margin:0 -2px;line-height:1.65;letter-spacing:-.4px;border-radius:30px}
+ #level-cards p{font-size:clamp(9px,2.4vw,14px);line-height:1.45;min-height:0;margin:4px 0 2px;font-weight:800}
+ #level-cards button{width:23px;height:23px;min-height:23px;flex-basis:23px;font-size:17px;border-width:1.5px}
+}
+@media(max-width:360px){#level-cards{gap:10px}#level-cards .level-card{aspect-ratio:1/1.15}#level-cards h3{font-size:11px;letter-spacing:-.4px}#level-cards p{font-size:9px}#level-cards button{width:21px;height:21px;min-height:21px;flex-basis:21px;font-size:15px}}
+@media(prefers-reduced-motion:reduce){#level-cards .level-card:hover{transform:none}}
+@media(max-width:600px){#level-cards .level-card{aspect-ratio:1/1.22}#level-cards .level-copy{padding-bottom:4px}#level-cards p{margin:2px 0 1px}#level-cards button{width:20px;height:20px;min-height:20px;flex-basis:20px;font-size:15px}}
+@media(max-width:360px){#level-cards .level-card{aspect-ratio:1/1.32}#level-cards button{width:19px;height:19px;min-height:19px;flex-basis:19px}}
