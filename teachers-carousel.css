@@ -1,0 +1,13 @@
+﻿#teachers #teacher-cards{display:flex;direction:ltr;gap:18px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;padding:5px 2px 15px;align-items:stretch;touch-action:pan-x pan-y}
+#teacher-cards::-webkit-scrollbar{display:none}
+#teachers #teacher-cards .teacher{direction:rtl;flex:0 0 calc((100% - 72px)/5);scroll-snap-align:start;min-width:0;display:flex;flex-direction:column}
+#teachers .teacher-portrait{aspect-ratio:1/1.1;background:#fdfdfd;overflow:hidden;border-radius:19px 19px 0 0}
+#teachers .teacher .teacher-portrait img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;margin:0}
+#teachers .teacher h3{font-size:13px;min-height:48px;margin:0;padding:8px 4px;line-height:1.7;border-radius:0;display:flex;align-items:center;justify-content:center}
+#teachers .teacher p{font-size:12px;min-height:40px;margin:0;padding:6px 4px;line-height:1.7;flex:1;display:flex;align-items:center;justify-content:center}
+.teacher-controls{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:10px}
+.teacher-controls button{border:1px solid #d6bdef;border-radius:50%;background:#fff;color:#5515a8;width:44px;height:44px;font-weight:800;font-size:23px;display:grid;place-items:center;padding:0}
+.teacher-controls #teacher-autoplay{width:auto;min-width:125px;border-radius:24px;padding:0 16px;font-size:12px}
+@media(max-width:850px){#teachers #teacher-cards .teacher{flex-basis:calc((100% - 36px)/3)}}
+@media(max-width:600px){#teachers #teacher-cards{gap:12px}#teachers #teacher-cards .teacher{flex-basis:calc((100% - 12px)/2)}#teachers .teacher h3{font-size:12px;min-height:46px}#teachers .teacher p{font-size:11px;min-height:40px}}
+.teacher-controls{gap:16px}.teacher-controls button svg{display:block;width:23px;height:23px}.teacher-controls button:hover{background:#5515a8;color:#fff}

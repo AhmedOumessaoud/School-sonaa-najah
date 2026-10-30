@@ -40,3 +40,6 @@ The 50 form/pricing assertions pass after this CSS change. Automated browser acc
 
 ## Reference level cards
 The level cards now use `levels.css`, loaded after the mobile stylesheet. Existing independent student images are composed with CSS: portrait overhangs, slight alternating card angles, lavender/gold backgrounds, overlapping pill ribbons, reference subtitles and compact arrow controls. Original level-selection behavior is retained. Mobile card heights include enough room for the second-baccalaureate two-line subtitle.
+
+## Teacher carousel
+Teacher photographs use consistent face-scale crops from the supplied originals. `teachers-carousel.css` and `teachers-carousel.js` provide a horizontal scroll-snap carousel with previous/next controls, touch swiping, arrow-key navigation and automatic advance every four seconds while visible. Autoplay pauses during hover, interaction, keyboard focus and hidden tabs. A visible pause/play button and reduced-motion preference are supported. Mobile shows two equally sized cards.

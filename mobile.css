@@ -66,3 +66,9 @@
  .hero .whatsapp:before,.hero .outline:before{width:5vw;height:5vw;flex-basis:5vw}
  .hero .actions .whatsapp span{margin-inline-start:auto;font-size:3.5vw}.hero-note,.visual-tag,.visual-year{display:none}
 }
+/* Keep the complete supporting copy readable above the laptop image. */
+@media(max-width:600px){
+ .hero .intro{top:55%;left:7%;right:4%;padding:1vw .6vw;font-size:2.4vw;line-height:1.55;font-weight:800;color:#28163f;background:#fcfafff5;border-radius:8px;box-shadow:0 0 9px 5px #fcfaffd9;z-index:2;overflow:visible;text-shadow:none}
+ .hero .intro span{display:block;white-space:nowrap}
+ .hero .actions{top:77%;bottom:3%;gap:1vw}
+}
