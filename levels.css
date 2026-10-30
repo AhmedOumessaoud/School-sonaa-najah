@@ -31,3 +31,17 @@
 @media(prefers-reduced-motion:reduce){#level-cards .level-card:hover{transform:none}}
 @media(max-width:600px){#level-cards .level-card{aspect-ratio:1/1.22}#level-cards .level-copy{padding-bottom:4px}#level-cards p{margin:2px 0 1px}#level-cards button{width:20px;height:20px;min-height:20px;flex-basis:20px;font-size:15px}}
 @media(max-width:360px){#level-cards .level-card{aspect-ratio:1/1.32}#level-cards button{width:19px;height:19px;min-height:19px;flex-basis:19px}}
+/* Desktop: give portraits their own space above the title and lower controls. */
+@media(min-width:851px){
+ #levels .section-head{margin-bottom:52px}
+ #level-cards{gap:30px;padding-bottom:22px}
+ #level-cards .level-card{aspect-ratio:1/1.28}
+ #level-cards .level-portrait{top:-8%;height:76%;overflow:hidden}
+ #level-cards .level-portrait img{width:112%;left:-6%;top:0;height:auto}
+ #level-cards .level-first .level-portrait img{width:94%;left:3%;top:0}
+ #level-cards .level-cap{top:20%;left:7%;width:46px;height:46px}
+ #level-cards .level-copy{top:64%;bottom:0;padding:0 12px 17px}
+ #level-cards h3{font-size:clamp(19px,2.1vw,29px);padding:5px 6px}
+ #level-cards p{margin:10px 0 12px;font-size:clamp(13px,1.3vw,17px);line-height:1.7}
+ #level-cards button{width:37px;height:37px;min-height:37px;flex-basis:37px;font-size:24px}
+}
